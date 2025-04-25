@@ -85,6 +85,7 @@ flutter:
     - assets/colours/
     - assets/images/flowers/
     - assets/images/numbers/
+#    - assets/numbers/
     - assets/explore/
     - assets/seasons/
     - assets/occupations/

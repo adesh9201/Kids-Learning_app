@@ -65,7 +65,7 @@ class _MyHomePageState extends State<MyHomePage> {
               categoryCard(
                 context: context,
                 title: "NUMBERS", // Added this block for "NUMBERS"
-                image: 'assets/numbers/numbers.jpg',
+                image: 'assets/images/numbers/numbers.jpg',
                 shortDescription: "Learn numbers and their pronunciations.",
                 route: AllRoutesConstant.numberRoute,
                 index: 7,

@@ -25,7 +25,7 @@ class AboutPage extends StatelessWidget {
             children: [
               const Center(
                 child: Text(
-                  'Learn',
+                  'Kids Learning App',
                   style: TextStyle(
                     fontSize: 32.0,
                     fontWeight: FontWeight.bold,
@@ -44,9 +44,9 @@ class AboutPage extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 32.0),
-              _buildSectionTitle(context, 'Version: 1.1.0'),
+              _buildSectionTitle(context, 'Version: 1.0.0'),
               const SizedBox(height: 8.0),
-              _buildSectionContent(context, 'Developed by: sapatevaibhav'),
+              _buildSectionContent(context, 'Developed by: Adesh Mishra'),
               const SizedBox(height: 16.0),
               _buildSectionTitle(context, 'Purpose of the App:'),
               const SizedBox(height: 8.0),
@@ -98,7 +98,7 @@ class AboutPage extends StatelessWidget {
               GestureDetector(
                 onTap: () {
                   _launchURL(
-                      context, "https://github.com/VaibhavCodeClub/learn");
+                      context, "https://github.com/adesh9201/Kids-Learning_app");
                 },
                 child: Row(
                   children: [
@@ -112,7 +112,7 @@ class AboutPage extends StatelessWidget {
                     ),
                     const SizedBox(width: 8.0),
                     Text(
-                      'github.com/VaibhavCodeClub/learn',
+                      'github.com/adesh9201/Kids-Learning_app',
                       style: TextStyle(
                         fontSize: 16.0,
                         color: Theme.of(context).brightness == Brightness.dark
@@ -129,16 +129,16 @@ class AboutPage extends StatelessWidget {
               const SizedBox(height: 8.0),
               Row(
                 children: [
-                  _buildIcon(context, 'https://github.com/sapatevaibhav',
+                  _buildIcon(context, 'https://github.com/adesh9201',
                       'assets/images/github.svg'),
                   const SizedBox(width: 16.0),
-                  _buildIcon(context, 'mailto:sapatevaibhav@duck.com',
+                  _buildIcon(context, 'mailto:panditadesh1234@gmail.com',
                       'assets/images/email.svg'),
                   const SizedBox(width: 16.0),
                   GestureDetector(
                     onTap: () {
                       _launchURL(
-                          context, 'https://linkedin.com/in/sapatevaibhav');
+                          context, 'https://www.linkedin.com/in/adesh-mishra-221816297/');
                     },
                     child: SvgPicture.asset(
                       'assets/images/linkedin.svg',
@@ -147,7 +147,7 @@ class AboutPage extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(width: 16.0),
-                  _buildIcon(context, 'https://instagram.com/v.d.r.sapate',
+                  _buildIcon(context, 'https://www.instagram.com/adesh_pandit_07/',
                       'assets/images/instagram.svg'),
                 ],
               ),
@@ -329,7 +329,7 @@ class LearnMorePage extends StatelessWidget {
             const SizedBox(height: 8.0),
             _buildSectionContent(
               context,
-              'We value your feedback! If you have any suggestions or issues, please contact us at sapatevaibhav@duck.com or through our social media channels.',
+              'We value your feedback! If you have any suggestions or issues, please contact us at panditadesh1234@gmail.com or through our social media channels.',
             ),
           ],
         ),
